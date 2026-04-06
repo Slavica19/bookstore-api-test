@@ -33,7 +33,7 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 * Create author
 * Update author
 * Delete author
-* 
+
 **Authors Edge Cases**
 * Non-existent ID (404)
 * Invalid payload (400)
@@ -44,13 +44,13 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 ### **Project Structure**
 
 * src/main/java/client/        - API client classes (HTTP requests)
-* src/main/java/model/         - Data models (POJO/DTO)
+* src/main/java/model/         - Data models (POJO)
 * src/main/java/com/config/    - config
 * src/main/java/com/utils/     - Utility classes (specbuilder)
 * src/test/java/assertions/    -response assertion
-* src/test/java/factory/       -Test classes (grouped by API/resource)
+* src/test/java/factory/       -Test classes 
 * src/test/java/tests          - Test classes
-* src/test/resources/          - Config files etc.
+* src/test/resources/          - Config files 
 
 ### **How to Run Tests**
 1. Clone the repository
@@ -63,7 +63,9 @@ The test suite validates both happy paths and edge cases for CRUD operations.
    mvn clean test
 
 3. Run specific groups
+
    mvn clean test -Dgroups=happy
+4. 
    mvn clean test -Dgroups=edge
 
 ### **Allure Reporting**
@@ -94,11 +96,11 @@ docker build --no-cache -t books-authors-tests .
 
 #### **Run the Tests in a Container:**
 
-docker run --rm -v $(pwd)/target:/app/target books-authors-tests
+docker run --rm -v ${PWD}:/app books-authors-tests
 
 --rm -> removes the container after finishing.
 
--v $(pwd)/target:/app/target -> keeps Allure reports on the host machine.
+-v ${PWD}:/app -> keeps Allure reports on the host machine.
 
 #### **Run the Tests with a Custom Environment Variable:**
 
@@ -116,7 +118,9 @@ allure open target/allure-report
 #### **Notes:**
 
 Docker container includes Maven, JDK 21, and Allure CLI.
+
 Test results: target/allure-results
+
 Allure report: target/allure-report
 
 
@@ -127,8 +131,12 @@ The project uses GitHub Actions to automatically run tests and publish Allure re
 #### **Notes:**
 
 * Runs automatically on push to master.
+
 * Generates Allure report and deploys to gh-pages branch.
+
 * Maintains a dashboard with history and latest report.
+
+* Report can be find: https://slavica19.github.io/bookstore-api-test/
 
 
 
