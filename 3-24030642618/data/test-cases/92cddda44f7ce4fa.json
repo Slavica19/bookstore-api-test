@@ -1,0 +1,118 @@
+{
+  "uid" : "92cddda44f7ce4fa",
+  "name" : "deleteAuthor_shouldReturnSuccess",
+  "fullName" : "tests.AuthorsTest.deleteAuthor_shouldReturnSuccess",
+  "historyId" : "21cdf2a4cb1dcb5d1c3e05661d8082ad",
+  "time" : {
+    "start" : 1775476151555,
+    "stop" : 1775476151880,
+    "duration" : 325
+  },
+  "description" : "Verify that deleting an author with a valid ID returns HTTP 200 success response",
+  "descriptionHtml" : "<p>Verify that deleting an author with a valid ID returns HTTP 200 success response</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775476151553,
+      "stop" : 1775476151553,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that deleting an author with a valid ID returns HTTP 200 success response",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e9e9620b9b1db24",
+      "name" : "Request",
+      "source" : "2e9e9620b9b1db24.html",
+      "type" : "text/html",
+      "size" : 371
+    }, {
+      "uid" : "babf5d98d4676313",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "babf5d98d4676313.html",
+      "type" : "text/html",
+      "size" : 310
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteAuthor_shouldReturnSuccess"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "host",
+    "value" : "f49f1879a985"
+  }, {
+    "name" : "thread",
+    "value" : "226@f49f1879a985.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Delete Author"
+  }, {
+    "name" : "tag",
+    "value" : "happy"
+  }, {
+    "name" : "story",
+    "value" : "Delete Author with Valid ID"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "happy" ]
+  },
+  "source" : "92cddda44f7ce4fa.json",
+  "parameterValues" : [ ]
+}
