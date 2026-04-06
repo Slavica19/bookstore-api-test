@@ -56,6 +56,7 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 1. Clone the repository
 
    git clone https://github.com/Slavica19/bookstore-api-test
+ 
    cd bookstore-api-test
 
 2. Run tests using Maven
@@ -65,18 +66,16 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 3. Run specific groups
 
    mvn clean test -Dgroups=happy
-4. 
+
    mvn clean test -Dgroups=edge
 
-### **Allure Reporting**
-
-Generate Allure Report:
+### **Allure Reporting:**
 
 allure generate target/allure-results
 
 allure serve target/allure-results
 
-Features used:
+**Features used:**
 
 •	@Epic
 •	@Feature
@@ -109,8 +108,6 @@ docker run --rm -v ${PWD}:/app -e BASE_URL=https://fakerestapi.azurewebsites.net
 -e BASE_URL -> sets the environment variable inside the container.
 
 #### **View Allure Report:**
-
-After the tests complete:
 
 allure open target/allure-report
 
