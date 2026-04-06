@@ -116,10 +116,6 @@ allure open target/allure-report
 
 Docker container includes Maven, JDK 21, and Allure CLI.
 
-Test results: target/allure-results
-
-Allure report: target/allure-report
-
 
 ### **CI Pipeline**
 
@@ -135,27 +131,28 @@ The project uses GitHub Actions to automatically run tests and publish Allure re
 
 * Report can be find: https://slavica19.github.io/bookstore-api-test/
 
-
-
-
 ### **Key Design Patterns**
 
 **Factory Pattern**
+
 Used for generating test data:
 * BookFactory
 * AuthorFactory
 
 **Assertion Helpers**
+
  Reusable validations:
 * BookAssertions
 * AuthorAssertions
 
 **Client Layer**
+
 Encapsulates API calls:
 * 	BooksClient
 * 	AuthorsClient
 
 **Assertions Strategy**
+
 * SoftAssert for validating multiple fields in one test
 * Custom assertion helpers for reusable validations
 * Response validation:
