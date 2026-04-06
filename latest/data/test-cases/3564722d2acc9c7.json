@@ -1,0 +1,118 @@
+{
+  "uid" : "3564722d2acc9c7",
+  "name" : "updateAuthor_shouldReturnUpdatedData",
+  "fullName" : "tests.AuthorsTest.updateAuthor_shouldReturnUpdatedData",
+  "historyId" : "73fe6cc1d9529706a216508e0140520",
+  "time" : {
+    "start" : 1775478918748,
+    "stop" : 1775478919083,
+    "duration" : 335
+  },
+  "description" : "Verify that updating an author modifies and returns the correct updated data",
+  "descriptionHtml" : "<p>Verify that updating an author modifies and returns the correct updated data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775478918746,
+      "stop" : 1775478918746,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that updating an author modifies and returns the correct updated data",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "451467d72d22c33a",
+      "name" : "Request",
+      "source" : "451467d72d22c33a.html",
+      "type" : "text/html",
+      "size" : 768
+    }, {
+      "uid" : "d82cd41322d101ca",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "d82cd41322d101ca.html",
+      "type" : "text/html",
+      "size" : 549
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateAuthor_shouldReturnUpdatedData"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsTest"
+  }, {
+    "name" : "host",
+    "value" : "c1464bb2a020"
+  }, {
+    "name" : "thread",
+    "value" : "225@c1464bb2a020.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Update Existing Author"
+  }, {
+    "name" : "tag",
+    "value" : "happy"
+  }, {
+    "name" : "feature",
+    "value" : "Update Author"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "happy" ]
+  },
+  "source" : "3564722d2acc9c7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,99 @@
+{
+  "uid" : "5501f3052e43af2a",
+  "name" : "getBookById_nonExistentID",
+  "fullName" : "tests.BooksEdgeTest.getBookById_nonExistentID",
+  "historyId" : "13da63f62ea524ffb7b441c584e27b27",
+  "time" : {
+    "start" : 1775478915772,
+    "stop" : 1775478916093,
+    "duration" : 321
+  },
+  "description" : "Verify that requesting a book with a non-existent ID returns HTTP 404",
+  "descriptionHtml" : "<p>Verify that requesting a book with a non-existent ID returns HTTP 404</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that requesting a book with a non-existent ID returns HTTP 404",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "725d131d1fb7573f",
+      "name" : "Request",
+      "source" : "725d131d1fb7573f.html",
+      "type" : "text/html",
+      "size" : 365
+    }, {
+      "uid" : "729a4aaf06c776be",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "729a4aaf06c776be.html",
+      "type" : "text/html",
+      "size" : 655
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getBookById_nonExistentID"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "c1464bb2a020"
+  }, {
+    "name" : "thread",
+    "value" : "225@c1464bb2a020.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Get Book"
+  }, {
+    "name" : "story",
+    "value" : "Non-Existent ID"
+  }, {
+    "name" : "epic",
+    "value" : "Books API"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5501f3052e43af2a.json",
+  "parameterValues" : [ ]
+}

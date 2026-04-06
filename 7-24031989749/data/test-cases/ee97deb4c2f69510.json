@@ -1,0 +1,115 @@
+{
+  "uid" : "ee97deb4c2f69510",
+  "name" : "createAuthors_emptyFields",
+  "fullName" : "tests.AuthorsEdgeTest.createAuthors_emptyFields",
+  "historyId" : "490e3b6009421871cc6480b5fdf0915d",
+  "time" : {
+    "start" : 1775478919426,
+    "stop" : 1775478919750,
+    "duration" : 324
+  },
+  "description" : "Verify that creating an author with empty required fields returns HTTP 400",
+  "descriptionHtml" : "<p>Verify that creating an author with empty required fields returns HTTP 400</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775478919425,
+      "stop" : 1775478919425,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that creating an author with empty required fields returns HTTP 400",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "52752b95972097f1",
+      "name" : "Request",
+      "source" : "52752b95972097f1.html",
+      "type" : "text/html",
+      "size" : 664
+    }, {
+      "uid" : "364ad79f51a84f50",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "364ad79f51a84f50.html",
+      "type" : "text/html",
+      "size" : 823
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createAuthors_emptyFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "c1464bb2a020"
+  }, {
+    "name" : "thread",
+    "value" : "225@c1464bb2a020.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Empty Required Fields"
+  }, {
+    "name" : "feature",
+    "value" : "Create Author"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee97deb4c2f69510.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,99 @@
+{
+  "uid" : "d106703af3f67023",
+  "name" : "updateBook_emptyPayload",
+  "fullName" : "tests.BooksEdgeTest.updateBook_emptyPayload",
+  "historyId" : "94621b6d334709bdc6b4949be6e369eb",
+  "time" : {
+    "start" : 1775478916425,
+    "stop" : 1775478916757,
+    "duration" : 332
+  },
+  "description" : "Verify that updating a book with an empty payload returns HTTP 400",
+  "descriptionHtml" : "<p>Verify that updating a book with an empty payload returns HTTP 400</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify that updating a book with an empty payload returns HTTP 400",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "84751cd024b46eda",
+      "name" : "Request",
+      "source" : "84751cd024b46eda.html",
+      "type" : "text/html",
+      "size" : 448
+    }, {
+      "uid" : "20b4a530bdab1233",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "20b4a530bdab1233.html",
+      "type" : "text/html",
+      "size" : 760
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateBook_emptyPayload"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.BooksEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "c1464bb2a020"
+  }, {
+    "name" : "thread",
+    "value" : "225@c1464bb2a020.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Update Book"
+  }, {
+    "name" : "story",
+    "value" : "Empty Payload"
+  }, {
+    "name" : "epic",
+    "value" : "Books API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d106703af3f67023.json",
+  "parameterValues" : [ ]
+}
