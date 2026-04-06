@@ -1,0 +1,115 @@
+{
+  "uid" : "d5a3a158460e2b9b",
+  "name" : "updateAuthor_emptyFields",
+  "fullName" : "tests.AuthorsEdgeTest.updateAuthor_emptyFields",
+  "historyId" : "20ed20e3c2c68312d89457b2a5dc3673",
+  "time" : {
+    "start" : 1775475349720,
+    "stop" : 1775475350039,
+    "duration" : 319
+  },
+  "description" : "Verify that updating an author with empty required fields returns HTTP 400",
+  "descriptionHtml" : "<p>Verify that updating an author with empty required fields returns HTTP 400</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775475349719,
+      "stop" : 1775475349719,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that updating an author with empty required fields returns HTTP 400",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4fffdf8351c32c92",
+      "name" : "Request",
+      "source" : "4fffdf8351c32c92.html",
+      "type" : "text/html",
+      "size" : 666
+    }, {
+      "uid" : "1ae909a3608c480a",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "1ae909a3608c480a.html",
+      "type" : "text/html",
+      "size" : 823
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateAuthor_emptyFields"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "a898eb419138"
+  }, {
+    "name" : "thread",
+    "value" : "225@a898eb419138.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Empty Required Fields"
+  }, {
+    "name" : "feature",
+    "value" : "Update Author"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5a3a158460e2b9b.json",
+  "parameterValues" : [ ]
+}

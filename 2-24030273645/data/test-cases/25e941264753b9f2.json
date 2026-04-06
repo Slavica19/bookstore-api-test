@@ -1,0 +1,115 @@
+{
+  "uid" : "25e941264753b9f2",
+  "name" : "updateAuthor_invalidDataTypes",
+  "fullName" : "tests.AuthorsEdgeTest.updateAuthor_invalidDataTypes",
+  "historyId" : "4ffc2beea9002ed7ebe558108fed234a",
+  "time" : {
+    "start" : 1775475350360,
+    "stop" : 1775475350683,
+    "duration" : 323
+  },
+  "description" : "Verify that updating an author with invalid data types returns HTTP 400",
+  "descriptionHtml" : "<p>Verify that updating an author with invalid data types returns HTTP 400</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775475350358,
+      "stop" : 1775475350359,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that updating an author with invalid data types returns HTTP 400",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffa5730c11c7687e",
+      "name" : "Request",
+      "source" : "ffa5730c11c7687e.html",
+      "type" : "text/html",
+      "size" : 882
+    }, {
+      "uid" : "1ba7d7db028cf354",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "1ba7d7db028cf354.html",
+      "type" : "text/html",
+      "size" : 834
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateAuthor_invalidDataTypes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "a898eb419138"
+  }, {
+    "name" : "thread",
+    "value" : "225@a898eb419138.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Invalid Data Types"
+  }, {
+    "name" : "feature",
+    "value" : "Update Author"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25e941264753b9f2.json",
+  "parameterValues" : [ ]
+}
