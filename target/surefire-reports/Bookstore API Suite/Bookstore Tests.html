@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Bookstore Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Bookstore Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 06 10:59:44 UTC 2026</td>
+</tr>
+<tr><td>Total time:</td><td>12 seconds (12423 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AuthorsTest.deleteAuthor_shouldReturnSuccess()'><b>deleteAuthor_shouldReturnSuccess</b><br>Test class: tests.AuthorsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsTest@18df8434</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.updateBook_emptyFields()'><b>updateBook_emptyFields</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.updateBook_invalidDataTypes()'><b>updateBook_invalidDataTypes</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.deleteAuthor_invalidPathParameter()'><b>deleteAuthor_invalidPathParameter</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.BooksTest.getBooks_shouldReturnNonEmptyList()'><b>getBooks_shouldReturnNonEmptyList</b><br>Test class: tests.BooksTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksTest@6253c26</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.deleteBook_invalidPathParameter()'><b>deleteBook_invalidPathParameter</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.AuthorsTest.createAuthor_shouldReturnValidResponse()'><b>createAuthor_shouldReturnValidResponse</b><br>Test class: tests.AuthorsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsTest@18df8434</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.createAuthors_emptyPayload()'><b>createAuthors_emptyPayload</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.BooksTest.createBooks_shouldReturnValidResponse()'><b>createBooks_shouldReturnValidResponse</b><br>Test class: tests.BooksTest</td>
+<td></td>
+<td>4</td>
+<td>tests.BooksTest@6253c26</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.createBooks_emptyPayload()'><b>createBooks_emptyPayload</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.AuthorsTest.updateAuthor_shouldReturnUpdatedData()'><b>updateAuthor_shouldReturnUpdatedData</b><br>Test class: tests.AuthorsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsTest@18df8434</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.updateAuthor_invalidDataTypes()'><b>updateAuthor_invalidDataTypes</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.updateAuthor_emptyPayload()'><b>updateAuthor_emptyPayload</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.getBookById_nonExistentID()'><b>getBookById_nonExistentID</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.BooksTest.deleteBook_shouldReturnSuccess()'><b>deleteBook_shouldReturnSuccess</b><br>Test class: tests.BooksTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksTest@6253c26</td></tr>
+<tr>
+<td title='tests.BooksTest.getBookById_shouldReturnValidBook()'><b>getBookById_shouldReturnValidBook</b><br>Test class: tests.BooksTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksTest@6253c26</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.getAuthorById_nonExistentID()'><b>getAuthorById_nonExistentID</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.createBooks_emptyFields()'><b>createBooks_emptyFields</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.createBooks_invalidDataTypes()'><b>createBooks_invalidDataTypes</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.createAuthor_invalidDataTypes()'><b>createAuthor_invalidDataTypes</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.updateAuthor_emptyFields()'><b>updateAuthor_emptyFields</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+<tr>
+<td title='tests.BooksTest.updateBook_shouldReturnUpdatedData()'><b>updateBook_shouldReturnUpdatedData</b><br>Test class: tests.BooksTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksTest@6253c26</td></tr>
+<tr>
+<td title='tests.BooksEdgeTest.updateBook_emptyPayload()'><b>updateBook_emptyPayload</b><br>Test class: tests.BooksEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.BooksEdgeTest@5677323c</td></tr>
+<tr>
+<td title='tests.AuthorsTest.getAuthorsById_shouldReturnValidAuthor()'><b>getAuthorsById_shouldReturnValidAuthor</b><br>Test class: tests.AuthorsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsTest@18df8434</td></tr>
+<tr>
+<td title='tests.AuthorsTest.getBooks_shouldReturnNonEmptyList()'><b>getBooks_shouldReturnNonEmptyList</b><br>Test class: tests.AuthorsTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsTest@18df8434</td></tr>
+<tr>
+<td title='tests.AuthorsEdgeTest.createAuthors_emptyFields()'><b>createAuthors_emptyFields</b><br>Test class: tests.AuthorsEdgeTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AuthorsEdgeTest@65c7a252</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"uuid":"19b4f9a9-23e7-4bad-bee4-84cc3198b1fb","name":"tests.AuthorsEdgeTest.setup","children":["ca3a7c27-c4ae-4650-9506-e1eb43d87f40"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1775473194884,"stop":1775473194884}],"afters":[],"start":1775473194884,"stop":1775473194884}

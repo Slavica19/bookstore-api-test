@@ -1,0 +1,12 @@
+factory/InvalidBookFactory.class
+assertions/BookAssertions.class
+factory/AuthorFactory.class
+tests/BaseTest.class
+factory/InvalidAuthorFactory.class
+assertions/AuthorAssertions.class
+utils/ResponseUtils.class
+factory/BookFactory.class
+tests/BooksEdgeTest.class
+tests/AuthorsEdgeTest.class
+tests/BooksTest.class
+tests/AuthorsTest.class
