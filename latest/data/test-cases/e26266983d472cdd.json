@@ -1,0 +1,115 @@
+{
+  "uid" : "e26266983d472cdd",
+  "name" : "updateAuthor_emptyPayload",
+  "fullName" : "tests.AuthorsEdgeTest.updateAuthor_emptyPayload",
+  "historyId" : "11ebc81495f6bec78923ef61e5e76f55",
+  "time" : {
+    "start" : 1775477647120,
+    "stop" : 1775477647474,
+    "duration" : 354
+  },
+  "description" : "Verify that updating an author with an empty payload returns HTTP 400",
+  "descriptionHtml" : "<p>Verify that updating an author with an empty payload returns HTTP 400</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1775477647119,
+      "stop" : 1775477647119,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify that updating an author with an empty payload returns HTTP 400",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b78b9fed953a70b0",
+      "name" : "Request",
+      "source" : "b78b9fed953a70b0.html",
+      "type" : "text/html",
+      "size" : 452
+    }, {
+      "uid" : "6669fb764cddf018",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "6669fb764cddf018.html",
+      "type" : "text/html",
+      "size" : 760
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "updateAuthor_emptyPayload"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Bookstore API Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Bookstore Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.AuthorsEdgeTest"
+  }, {
+    "name" : "host",
+    "value" : "926be37db7fb"
+  }, {
+    "name" : "thread",
+    "value" : "228@926be37db7fb.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Empty Payload"
+  }, {
+    "name" : "feature",
+    "value" : "Update Author"
+  }, {
+    "name" : "epic",
+    "value" : "Authors API"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e26266983d472cdd.json",
+  "parameterValues" : [ ]
+}

@@ -1,260 +1,260 @@
 [ {
-  "uid" : "4964220740a859be",
-  "name" : "updateBook_shouldReturnUpdatedData",
-  "time" : {
-    "start" : 1775476147301,
-    "stop" : 1775476147626,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "58ab115c0f40b0d",
-  "name" : "updateBook_emptyFields",
-  "time" : {
-    "start" : 1775476150252,
-    "stop" : 1775476150570,
-    "duration" : 318
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c57d3e5b4c108842",
-  "name" : "updateAuthor_emptyPayload",
-  "time" : {
-    "start" : 1775476155195,
-    "stop" : 1775476155518,
-    "duration" : 323
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e33222be2fe6b7ee",
-  "name" : "deleteAuthor_invalidPathParameter",
-  "time" : {
-    "start" : 1775476154195,
-    "stop" : 1775476154509,
-    "duration" : 314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0b61fef4e8e5662",
-  "name" : "getAuthorsById_shouldReturnValidAuthor",
-  "time" : {
-    "start" : 1775476151882,
-    "stop" : 1775476152200,
-    "duration" : 318
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "59547fba4136b055",
-  "name" : "getBooks_shouldReturnNonEmptyList",
-  "time" : {
-    "start" : 1775476146425,
-    "stop" : 1775476147296,
-    "duration" : 871
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "f43140c48eeecd3d",
-  "name" : "updateAuthor_invalidDataTypes",
-  "time" : {
-    "start" : 1775476155520,
-    "stop" : 1775476155838,
-    "duration" : 318
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "7bcdd133715c966a",
+  "uid" : "ab31054b39f4c866",
   "name" : "createAuthors_emptyPayload",
   "time" : {
-    "start" : 1775476153863,
-    "stop" : 1775476154192,
-    "duration" : 329
+    "start" : 1775477645606,
+    "stop" : 1775477645983,
+    "duration" : 377
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "ef593a39617bf43e",
+  "uid" : "902b0026ea8efe37",
   "name" : "createAuthors_emptyFields",
   "time" : {
-    "start" : 1775476153536,
-    "stop" : 1775476153861,
-    "duration" : 325
+    "start" : 1775477645245,
+    "stop" : 1775477645604,
+    "duration" : 359
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "d5b43aca6870aa20",
-  "name" : "createBooks_emptyFields",
+  "uid" : "82543f8779333a79",
+  "name" : "updateBook_shouldReturnUpdatedData",
   "time" : {
-    "start" : 1775476147630,
-    "stop" : 1775476147968,
-    "duration" : 338
+    "start" : 1775477639374,
+    "stop" : 1775477639769,
+    "duration" : 395
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "13250b806c35fca6",
-  "name" : "createBooks_shouldReturnValidResponse",
-  "time" : {
-    "start" : 1775476143789,
-    "stop" : 1775476145702,
-    "duration" : 1913
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "75a8a2eb89cf26a0",
+  "uid" : "6fc53972f183ea3e",
   "name" : "getBookById_shouldReturnValidBook",
   "time" : {
-    "start" : 1775476146081,
-    "stop" : 1775476146420,
-    "duration" : 339
+    "start" : 1775477638091,
+    "stop" : 1775477638459,
+    "duration" : 368
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "751f0df50457ec6d",
+  "uid" : "d84fdb789ffa12d9",
   "name" : "updateAuthor_shouldReturnUpdatedData",
   "time" : {
-    "start" : 1775476152884,
-    "stop" : 1775476153217,
-    "duration" : 333
+    "start" : 1775477644497,
+    "stop" : 1775477644869,
+    "duration" : 372
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "bba841c2714f300",
+  "uid" : "58214d0b1a3ac2b9",
+  "name" : "createBooks_invalidDataTypes",
+  "time" : {
+    "start" : 1775477640505,
+    "stop" : 1775477640856,
+    "duration" : 351
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88ffb15de6ed6fe9",
   "name" : "createAuthor_invalidDataTypes",
   "time" : {
-    "start" : 1775476153219,
-    "stop" : 1775476153533,
-    "duration" : 314
+    "start" : 1775477644872,
+    "stop" : 1775477645243,
+    "duration" : 371
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "fe9c2d48d11ecf6",
-  "name" : "updateAuthor_emptyFields",
+  "uid" : "590ddb1a46d71ba3",
+  "name" : "createBooks_emptyFields",
   "time" : {
-    "start" : 1775476154865,
-    "stop" : 1775476155193,
-    "duration" : 328
+    "start" : 1775477639773,
+    "stop" : 1775477640141,
+    "duration" : 368
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "a435aeaabc4af290",
+  "uid" : "8afd041ce50e51cb",
+  "name" : "updateBook_emptyPayload",
+  "time" : {
+    "start" : 1775477641954,
+    "stop" : 1775477642314,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "980d93985b618e29",
   "name" : "createBooks_emptyPayload",
   "time" : {
-    "start" : 1775476147972,
-    "stop" : 1775476148296,
-    "duration" : 324
+    "start" : 1775477640143,
+    "stop" : 1775477640503,
+    "duration" : 360
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "1eefb4c210527943",
-  "name" : "deleteBook_shouldReturnSuccess",
+  "uid" : "f06f2614e676abc7",
+  "name" : "updateAuthor_invalidDataTypes",
   "time" : {
-    "start" : 1775476145719,
-    "stop" : 1775476146077,
-    "duration" : 358
+    "start" : 1775477647477,
+    "stop" : 1775477647827,
+    "duration" : 350
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "e0c0cef29650f4e0",
-  "name" : "getBooks_shouldReturnNonEmptyList",
-  "time" : {
-    "start" : 1775476152203,
-    "stop" : 1775476152881,
-    "duration" : 678
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "87057dca92a5fe07",
-  "name" : "getAuthorById_nonExistentID",
-  "time" : {
-    "start" : 1775476154511,
-    "stop" : 1775476154863,
-    "duration" : 352
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "92cddda44f7ce4fa",
-  "name" : "deleteAuthor_shouldReturnSuccess",
-  "time" : {
-    "start" : 1775476151555,
-    "stop" : 1775476151880,
-    "duration" : 325
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "7628cda6d4b189b3",
+  "uid" : "3d21614c3a5627d3",
   "name" : "createAuthor_shouldReturnValidResponse",
   "time" : {
-    "start" : 1775476151219,
-    "stop" : 1775476151552,
-    "duration" : 333
+    "start" : 1775477642680,
+    "stop" : 1775477643055,
+    "duration" : 375
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "a401ed0e0f413132",
+  "uid" : "368bbde192438189",
+  "name" : "deleteAuthor_invalidPathParameter",
+  "time" : {
+    "start" : 1775477645986,
+    "stop" : 1775477646359,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ebc8707020e043c",
+  "name" : "getBooks_shouldReturnNonEmptyList",
+  "time" : {
+    "start" : 1775477638463,
+    "stop" : 1775477639367,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c5a7485187b3f58",
+  "name" : "deleteBook_shouldReturnSuccess",
+  "time" : {
+    "start" : 1775477637694,
+    "stop" : 1775477638087,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e26266983d472cdd",
+  "name" : "updateAuthor_emptyPayload",
+  "time" : {
+    "start" : 1775477647120,
+    "stop" : 1775477647474,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f27fe1ffa222cce6",
+  "name" : "getAuthorById_nonExistentID",
+  "time" : {
+    "start" : 1775477646362,
+    "stop" : 1775477646744,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6a8ae1d10b064f3",
+  "name" : "updateBook_emptyFields",
+  "time" : {
+    "start" : 1775477641608,
+    "stop" : 1775477641952,
+    "duration" : 344
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8dcc7c0fa4fda49a",
   "name" : "deleteBook_invalidPathParameter",
   "time" : {
-    "start" : 1775476148895,
-    "stop" : 1775476149217,
-    "duration" : 322
+    "start" : 1775477640859,
+    "stop" : 1775477641225,
+    "duration" : 366
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d36a70a23295829d",
-  "name" : "getBookById_nonExistentID",
-  "time" : {
-    "start" : 1775476149219,
-    "stop" : 1775476150250,
-    "duration" : 1031
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "83b4475452da20e9",
+  "uid" : "184d269730c21100",
   "name" : "updateBook_invalidDataTypes",
   "time" : {
-    "start" : 1775476150901,
-    "stop" : 1775476151216,
-    "duration" : 315
+    "start" : 1775477642317,
+    "stop" : 1775477642676,
+    "duration" : 359
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "b219333ee575cd8a",
-  "name" : "createBooks_invalidDataTypes",
+  "uid" : "b5f6af51ae7290c7",
+  "name" : "getBooks_shouldReturnNonEmptyList",
   "time" : {
-    "start" : 1775476148299,
-    "stop" : 1775476148892,
-    "duration" : 593
+    "start" : 1775477643818,
+    "stop" : 1775477644493,
+    "duration" : 675
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "da618d69ecbe6bf8",
-  "name" : "updateBook_emptyPayload",
+  "uid" : "1474c79c51549efe",
+  "name" : "getBookById_nonExistentID",
   "time" : {
-    "start" : 1775476150573,
-    "stop" : 1775476150898,
-    "duration" : 325
+    "start" : 1775477641228,
+    "stop" : 1775477641606,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63fe79af5d46c4c9",
+  "name" : "getAuthorsById_shouldReturnValidAuthor",
+  "time" : {
+    "start" : 1775477643431,
+    "stop" : 1775477643815,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4b6677ef25bd5f9f",
+  "name" : "updateAuthor_emptyFields",
+  "time" : {
+    "start" : 1775477646747,
+    "stop" : 1775477647117,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "33c1f7c8dcddf50",
+  "name" : "createBooks_shouldReturnValidResponse",
+  "time" : {
+    "start" : 1775477635643,
+    "stop" : 1775477637677,
+    "duration" : 2034
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "a209d4733f559ef1",
+  "name" : "deleteAuthor_shouldReturnSuccess",
+  "time" : {
+    "start" : 1775477643058,
+    "stop" : 1775477643428,
+    "duration" : 370
   },
   "status" : "passed",
   "severity" : "critical"
