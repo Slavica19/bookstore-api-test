@@ -112,10 +112,6 @@ docker run --rm -v ${PWD}:/app -e BASE_URL=https://fakerestapi.azurewebsites.net
 allure open target/allure-report
 
 
-#### **Notes:**
-
-Docker container includes Maven, JDK 21, and Allure CLI.
-
 
 ### **CI Pipeline**
 
