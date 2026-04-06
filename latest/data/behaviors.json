@@ -1,0 +1,495 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Books API",
+    "children" : [ {
+      "name" : "Create Book",
+      "children" : [ {
+        "name" : "Create New Book with Valid Data",
+        "children" : [ {
+          "name" : "createBooks_shouldReturnValidResponse",
+          "uid" : "8485878d1f88a2ec",
+          "parentUid" : "bde752c91083bcccd3a931426b263dd9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473981898,
+            "stop" : 1775473983774,
+            "duration" : 1876
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bde752c91083bcccd3a931426b263dd9"
+      }, {
+        "name" : "Empty Required Fields",
+        "children" : [ {
+          "name" : "createBooks_emptyFields",
+          "uid" : "70cd2cd7683e26e7",
+          "parentUid" : "153a877b0095c40253bb80c90ec9e103",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473985753,
+            "stop" : 1775473986098,
+            "duration" : 345
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "153a877b0095c40253bb80c90ec9e103"
+      }, {
+        "name" : "Empty Payload",
+        "children" : [ {
+          "name" : "createBooks_emptyPayload",
+          "uid" : "5e00c00acc51525c",
+          "parentUid" : "b287f924f15908f2570ca112dfa07903",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986102,
+            "stop" : 1775473986436,
+            "duration" : 334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b287f924f15908f2570ca112dfa07903"
+      }, {
+        "name" : "Invalid Data Types",
+        "children" : [ {
+          "name" : "createBooks_invalidDataTypes",
+          "uid" : "e31d9303dd200b59",
+          "parentUid" : "a17f564c024c61a34990e17310d08fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986439,
+            "stop" : 1775473986757,
+            "duration" : 318
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a17f564c024c61a34990e17310d08fe5"
+      } ],
+      "uid" : "9452a93eb22a33b8a177c01853712fe7"
+    }, {
+      "name" : "Delete Book",
+      "children" : [ {
+        "name" : "Delete Book with Valid ID",
+        "children" : [ {
+          "name" : "deleteBook_shouldReturnSuccess",
+          "uid" : "7edaecd2a3917f42",
+          "parentUid" : "2e089174588ed9778e86b4196d4ebbcc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473983790,
+            "stop" : 1775473984158,
+            "duration" : 368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2e089174588ed9778e86b4196d4ebbcc"
+      }, {
+        "name" : "Invalid Path Parameter",
+        "children" : [ {
+          "name" : "deleteBook_invalidPathParameter",
+          "uid" : "65aa796e91387381",
+          "parentUid" : "741586c6dd6d47597082ead2ac27478f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986759,
+            "stop" : 1775473987082,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "741586c6dd6d47597082ead2ac27478f"
+      } ],
+      "uid" : "f2945c9b070314a448fd84d45682d572"
+    }, {
+      "name" : "Get Book",
+      "children" : [ {
+        "name" : "Retrieve Book by Valid ID",
+        "children" : [ {
+          "name" : "getBookById_shouldReturnValidBook",
+          "uid" : "fa5398e4dd38ab51",
+          "parentUid" : "1adadb04f94b6539853b992e59abebc1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473984162,
+            "stop" : 1775473984515,
+            "duration" : 353
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1adadb04f94b6539853b992e59abebc1"
+      }, {
+        "name" : "Non-Existent ID",
+        "children" : [ {
+          "name" : "getBookById_nonExistentID",
+          "uid" : "6b6db1d170fe4a1a",
+          "parentUid" : "5ba12fe98ef55789de1de4b60984978d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987084,
+            "stop" : 1775473987408,
+            "duration" : 324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5ba12fe98ef55789de1de4b60984978d"
+      } ],
+      "uid" : "fd72ba5ae0f680e2a877b7342ddb8db5"
+    }, {
+      "name" : "Get Books",
+      "children" : [ {
+        "name" : "Retrieve All Books",
+        "children" : [ {
+          "name" : "getBooks_shouldReturnNonEmptyList",
+          "uid" : "892137ea610c1811",
+          "parentUid" : "9bd79e75c073418be7d1bd50e0a286b0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473984519,
+            "stop" : 1775473985404,
+            "duration" : 885
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9bd79e75c073418be7d1bd50e0a286b0"
+      } ],
+      "uid" : "2215fc52ae772a871d41f242bc192323"
+    }, {
+      "name" : "Update Book",
+      "children" : [ {
+        "name" : "Update Existing Book",
+        "children" : [ {
+          "name" : "updateBook_shouldReturnUpdatedData",
+          "uid" : "de9cc291610c5a83",
+          "parentUid" : "dda65c76bb06a009a1f859f8c695e09b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473985409,
+            "stop" : 1775473985750,
+            "duration" : 341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dda65c76bb06a009a1f859f8c695e09b"
+      }, {
+        "name" : "Empty Required Fields",
+        "children" : [ {
+          "name" : "updateBook_emptyFields",
+          "uid" : "b833e45d7945e44b",
+          "parentUid" : "3ba0c848c517413c75fdf098dd8effae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987410,
+            "stop" : 1775473987733,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3ba0c848c517413c75fdf098dd8effae"
+      }, {
+        "name" : "Empty Payload",
+        "children" : [ {
+          "name" : "updateBook_emptyPayload",
+          "uid" : "7a2c478392b1a910",
+          "parentUid" : "2618af642df1b94fc96ef33d0704c50c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987735,
+            "stop" : 1775473988057,
+            "duration" : 322
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2618af642df1b94fc96ef33d0704c50c"
+      }, {
+        "name" : "Invalid Data Types",
+        "children" : [ {
+          "name" : "updateBook_invalidDataTypes",
+          "uid" : "4d15409673984a6f",
+          "parentUid" : "4eba1d8dca3a08ee41f753be2a9f83fd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988059,
+            "stop" : 1775473988386,
+            "duration" : 327
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4eba1d8dca3a08ee41f753be2a9f83fd"
+      } ],
+      "uid" : "9521d713c2f5c0a6abace5758b720404"
+    } ],
+    "uid" : "89f11aaf186c8aa0f61cf1d32f58461e"
+  }, {
+    "name" : "Authors API",
+    "children" : [ {
+      "name" : "Create Author",
+      "children" : [ {
+        "name" : "Create New Author with Valid Data",
+        "children" : [ {
+          "name" : "createAuthor_shouldReturnValidResponse",
+          "uid" : "89a7d4a1a32827af",
+          "parentUid" : "b507c305358e2eb416f6c557cdf42415",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988389,
+            "stop" : 1775473988713,
+            "duration" : 324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b507c305358e2eb416f6c557cdf42415"
+      }, {
+        "name" : "Invalid Data Types",
+        "children" : [ {
+          "name" : "createAuthor_invalidDataTypes",
+          "uid" : "616505d6abced730",
+          "parentUid" : "1e5bbefc6a60d5112bc8795fd1be1af0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990353,
+            "stop" : 1775473990663,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1e5bbefc6a60d5112bc8795fd1be1af0"
+      }, {
+        "name" : "Empty Required Fields",
+        "children" : [ {
+          "name" : "createAuthors_emptyFields",
+          "uid" : "f38f24841c9aa54e",
+          "parentUid" : "ac8825c1d0f0c8e713b6f777c8c353d4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990666,
+            "stop" : 1775473990985,
+            "duration" : 319
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ac8825c1d0f0c8e713b6f777c8c353d4"
+      }, {
+        "name" : "Empty Payload",
+        "children" : [ {
+          "name" : "createAuthors_emptyPayload",
+          "uid" : "dc173870b2623dc",
+          "parentUid" : "da233dc8353f2172833d69d9eef32ad7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990987,
+            "stop" : 1775473991302,
+            "duration" : 315
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "da233dc8353f2172833d69d9eef32ad7"
+      } ],
+      "uid" : "ef7981e1455ffcb2b39ff7cacf52e56a"
+    }, {
+      "name" : "Delete Author",
+      "children" : [ {
+        "name" : "Delete Author with Valid ID",
+        "children" : [ {
+          "name" : "deleteAuthor_shouldReturnSuccess",
+          "uid" : "59c981a984dd8422",
+          "parentUid" : "67086e4f611dab84ed51a3ec60203a26",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988716,
+            "stop" : 1775473989042,
+            "duration" : 326
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "67086e4f611dab84ed51a3ec60203a26"
+      }, {
+        "name" : "Invalid Path Parameter",
+        "children" : [ {
+          "name" : "deleteAuthor_invalidPathParameter",
+          "uid" : "d78ed87d0aae182d",
+          "parentUid" : "00d91b06b4ff21fe7836ab571843a3b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991304,
+            "stop" : 1775473991632,
+            "duration" : 328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "00d91b06b4ff21fe7836ab571843a3b5"
+      } ],
+      "uid" : "e5f5d32a84c6f536d477cd6f6d140970"
+    }, {
+      "name" : "Get Author",
+      "children" : [ {
+        "name" : "Retrieve Author by Valid ID",
+        "children" : [ {
+          "name" : "getAuthorsById_shouldReturnValidAuthor",
+          "uid" : "40bb37fa657acf83",
+          "parentUid" : "51b204d43b60d837b4e11cdd11598a2e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473989045,
+            "stop" : 1775473989358,
+            "duration" : 313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "51b204d43b60d837b4e11cdd11598a2e"
+      }, {
+        "name" : "Non-Existent ID",
+        "children" : [ {
+          "name" : "getAuthorById_nonExistentID",
+          "uid" : "5391743e516c770b",
+          "parentUid" : "fd02858c60c2d7b918e4be50368a947f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991634,
+            "stop" : 1775473991955,
+            "duration" : 321
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fd02858c60c2d7b918e4be50368a947f"
+      } ],
+      "uid" : "b97a92e64756422aa66fba9280a872f7"
+    }, {
+      "name" : "Get Authors",
+      "children" : [ {
+        "name" : "Retrieve All Authors",
+        "children" : [ {
+          "name" : "getBooks_shouldReturnNonEmptyList",
+          "uid" : "f0e39188c492bbd7",
+          "parentUid" : "30675537d82b11c7781d9c5f94b4993c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473989360,
+            "stop" : 1775473990009,
+            "duration" : 649
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "30675537d82b11c7781d9c5f94b4993c"
+      } ],
+      "uid" : "8b2efbca398e4d8a727c7fc731124f59"
+    }, {
+      "name" : "Update Author",
+      "children" : [ {
+        "name" : "Update Existing Author",
+        "children" : [ {
+          "name" : "updateAuthor_shouldReturnUpdatedData",
+          "uid" : "525f1e197d617338",
+          "parentUid" : "6a1bb27644691a8010ae774bdbd43460",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990012,
+            "stop" : 1775473990350,
+            "duration" : 338
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6a1bb27644691a8010ae774bdbd43460"
+      }, {
+        "name" : "Empty Required Fields",
+        "children" : [ {
+          "name" : "updateAuthor_emptyFields",
+          "uid" : "ba56d0503cfa1a70",
+          "parentUid" : "47cca940f4190bba52f6aa7ab8a82034",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991957,
+            "stop" : 1775473992288,
+            "duration" : 331
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "47cca940f4190bba52f6aa7ab8a82034"
+      }, {
+        "name" : "Empty Payload",
+        "children" : [ {
+          "name" : "updateAuthor_emptyPayload",
+          "uid" : "afa6007a23158a36",
+          "parentUid" : "c2cff4e6d8e2cbe8a338836e7d07d21a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473992291,
+            "stop" : 1775473992603,
+            "duration" : 312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c2cff4e6d8e2cbe8a338836e7d07d21a"
+      }, {
+        "name" : "Invalid Data Types",
+        "children" : [ {
+          "name" : "updateAuthor_invalidDataTypes",
+          "uid" : "c34b0e50b8b6485c",
+          "parentUid" : "83fe3d8f5f19e3201ebad3546875bfc9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473992606,
+            "stop" : 1775473992935,
+            "duration" : 329
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "83fe3d8f5f19e3201ebad3546875bfc9"
+      } ],
+      "uid" : "ddb90493b80564ac2acb73c678a76350"
+    } ],
+    "uid" : "a7cf4265bdba5463ffb854d221f41df6"
+  } ]
+}

@@ -1,0 +1,367 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Bookstore API Suite",
+    "children" : [ {
+      "name" : "Bookstore Tests",
+      "children" : [ {
+        "name" : "tests.BooksTest",
+        "children" : [ {
+          "name" : "createBooks_shouldReturnValidResponse",
+          "uid" : "8485878d1f88a2ec",
+          "parentUid" : "766be11b96d19e7121bbc7e284e08476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473981898,
+            "stop" : 1775473983774,
+            "duration" : 1876
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteBook_shouldReturnSuccess",
+          "uid" : "7edaecd2a3917f42",
+          "parentUid" : "766be11b96d19e7121bbc7e284e08476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473983790,
+            "stop" : 1775473984158,
+            "duration" : 368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getBookById_shouldReturnValidBook",
+          "uid" : "fa5398e4dd38ab51",
+          "parentUid" : "766be11b96d19e7121bbc7e284e08476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473984162,
+            "stop" : 1775473984515,
+            "duration" : 353
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getBooks_shouldReturnNonEmptyList",
+          "uid" : "892137ea610c1811",
+          "parentUid" : "766be11b96d19e7121bbc7e284e08476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473984519,
+            "stop" : 1775473985404,
+            "duration" : 885
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateBook_shouldReturnUpdatedData",
+          "uid" : "de9cc291610c5a83",
+          "parentUid" : "766be11b96d19e7121bbc7e284e08476",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473985409,
+            "stop" : 1775473985750,
+            "duration" : 341
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "766be11b96d19e7121bbc7e284e08476"
+      }, {
+        "name" : "tests.BooksEdgeTest",
+        "children" : [ {
+          "name" : "createBooks_emptyFields",
+          "uid" : "70cd2cd7683e26e7",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473985753,
+            "stop" : 1775473986098,
+            "duration" : 345
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createBooks_emptyPayload",
+          "uid" : "5e00c00acc51525c",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986102,
+            "stop" : 1775473986436,
+            "duration" : 334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createBooks_invalidDataTypes",
+          "uid" : "e31d9303dd200b59",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986439,
+            "stop" : 1775473986757,
+            "duration" : 318
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteBook_invalidPathParameter",
+          "uid" : "65aa796e91387381",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473986759,
+            "stop" : 1775473987082,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getBookById_nonExistentID",
+          "uid" : "6b6db1d170fe4a1a",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987084,
+            "stop" : 1775473987408,
+            "duration" : 324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateBook_emptyFields",
+          "uid" : "b833e45d7945e44b",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987410,
+            "stop" : 1775473987733,
+            "duration" : 323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateBook_emptyPayload",
+          "uid" : "7a2c478392b1a910",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473987735,
+            "stop" : 1775473988057,
+            "duration" : 322
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateBook_invalidDataTypes",
+          "uid" : "4d15409673984a6f",
+          "parentUid" : "2a6553262c1948dae02d81a1761e6ad5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988059,
+            "stop" : 1775473988386,
+            "duration" : 327
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2a6553262c1948dae02d81a1761e6ad5"
+      }, {
+        "name" : "tests.AuthorsTest",
+        "children" : [ {
+          "name" : "createAuthor_shouldReturnValidResponse",
+          "uid" : "89a7d4a1a32827af",
+          "parentUid" : "24b7297cd287edfd68f1cfb01f8e0143",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988389,
+            "stop" : 1775473988713,
+            "duration" : 324
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteAuthor_shouldReturnSuccess",
+          "uid" : "59c981a984dd8422",
+          "parentUid" : "24b7297cd287edfd68f1cfb01f8e0143",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473988716,
+            "stop" : 1775473989042,
+            "duration" : 326
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getAuthorsById_shouldReturnValidAuthor",
+          "uid" : "40bb37fa657acf83",
+          "parentUid" : "24b7297cd287edfd68f1cfb01f8e0143",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473989045,
+            "stop" : 1775473989358,
+            "duration" : 313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getBooks_shouldReturnNonEmptyList",
+          "uid" : "f0e39188c492bbd7",
+          "parentUid" : "24b7297cd287edfd68f1cfb01f8e0143",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473989360,
+            "stop" : 1775473990009,
+            "duration" : 649
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateAuthor_shouldReturnUpdatedData",
+          "uid" : "525f1e197d617338",
+          "parentUid" : "24b7297cd287edfd68f1cfb01f8e0143",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990012,
+            "stop" : 1775473990350,
+            "duration" : 338
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24b7297cd287edfd68f1cfb01f8e0143"
+      }, {
+        "name" : "tests.AuthorsEdgeTest",
+        "children" : [ {
+          "name" : "createAuthor_invalidDataTypes",
+          "uid" : "616505d6abced730",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990353,
+            "stop" : 1775473990663,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createAuthors_emptyFields",
+          "uid" : "f38f24841c9aa54e",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990666,
+            "stop" : 1775473990985,
+            "duration" : 319
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createAuthors_emptyPayload",
+          "uid" : "dc173870b2623dc",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473990987,
+            "stop" : 1775473991302,
+            "duration" : 315
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "deleteAuthor_invalidPathParameter",
+          "uid" : "d78ed87d0aae182d",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991304,
+            "stop" : 1775473991632,
+            "duration" : 328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "getAuthorById_nonExistentID",
+          "uid" : "5391743e516c770b",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991634,
+            "stop" : 1775473991955,
+            "duration" : 321
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateAuthor_emptyFields",
+          "uid" : "ba56d0503cfa1a70",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473991957,
+            "stop" : 1775473992288,
+            "duration" : 331
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateAuthor_emptyPayload",
+          "uid" : "afa6007a23158a36",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473992291,
+            "stop" : 1775473992603,
+            "duration" : 312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "updateAuthor_invalidDataTypes",
+          "uid" : "c34b0e50b8b6485c",
+          "parentUid" : "3ffe845be960038146a9a2b5eb216790",
+          "status" : "passed",
+          "time" : {
+            "start" : 1775473992606,
+            "stop" : 1775473992935,
+            "duration" : 329
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3ffe845be960038146a9a2b5eb216790"
+      } ],
+      "uid" : "a2124e7d4648f5157a7e7bab32e5d5a8"
+    } ],
+    "uid" : "1e641126fb0cfaf9d2e9779f4ea97f2d"
+  } ]
+}
