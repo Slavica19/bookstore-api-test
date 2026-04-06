@@ -1,1 +1,0 @@
-{"uuid":"18d551da-5ae6-4492-a4eb-13d68c23b3db","name":"tests.BooksTest.setup","children":["87abec27-3c1f-4d3e-9518-d9cbf20d1989"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1775473190206,"stop":1775473190206}],"afters":[],"start":1775473190205,"stop":1775473190206}

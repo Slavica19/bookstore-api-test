@@ -1,6 +1,6 @@
-config/ConfigManager.class
-model/Author.class
-client/AuthorsClient.class
-client/BooksClient.class
-utils/SpecBuilder.class
-model/Book.class
+config\ConfigManager.class
+client\AuthorsClient.class
+model\Author.class
+utils\SpecBuilder.class
+client\BooksClient.class
+model\Book.class

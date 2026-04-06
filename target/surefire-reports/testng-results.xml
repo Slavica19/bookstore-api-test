@@ -1,221 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-06T10:59:44 UTC" name="Bookstore API Suite" finished-at="2026-04-06T10:59:56 UTC" duration-ms="12423">
+  <suite started-at="2026-04-06T13:45:08 CEST" name="Bookstore API Suite" finished-at="2026-04-06T13:45:13 CEST" duration-ms="5038">
     <groups>
       <group name="edge">
-        <method signature="AuthorsEdgeTest.createAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="createAuthor_invalidDataTypes" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.createAuthors_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="createAuthors_emptyFields" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.createAuthors_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="createAuthors_emptyPayload" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.deleteAuthor_invalidPathParameter()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="deleteAuthor_invalidPathParameter" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.getAuthorById_nonExistentID()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="getAuthorById_nonExistentID" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.updateAuthor_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="updateAuthor_emptyFields" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.updateAuthor_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="updateAuthor_emptyPayload" class="tests.AuthorsEdgeTest"/>
-        <method signature="AuthorsEdgeTest.updateAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" name="updateAuthor_invalidDataTypes" class="tests.AuthorsEdgeTest"/>
-        <method signature="BooksEdgeTest.createBooks_emptyFields()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="createBooks_emptyFields" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.createBooks_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="createBooks_emptyPayload" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.createBooks_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="createBooks_invalidDataTypes" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.deleteBook_invalidPathParameter()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="deleteBook_invalidPathParameter" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.getBookById_nonExistentID()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="getBookById_nonExistentID" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.updateBook_emptyFields()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="updateBook_emptyFields" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.updateBook_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="updateBook_emptyPayload" class="tests.BooksEdgeTest"/>
-        <method signature="BooksEdgeTest.updateBook_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@5677323c]" name="updateBook_invalidDataTypes" class="tests.BooksEdgeTest"/>
+        <method signature="AuthorsEdgeTest.createAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="createAuthor_invalidDataTypes" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.createAuthors_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="createAuthors_emptyFields" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.createAuthors_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="createAuthors_emptyPayload" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.deleteAuthor_invalidPathParameter()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="deleteAuthor_invalidPathParameter" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.getAuthorById_nonExistentID()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="getAuthorById_nonExistentID" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.updateAuthor_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="updateAuthor_emptyFields" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.updateAuthor_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="updateAuthor_emptyPayload" class="tests.AuthorsEdgeTest"/>
+        <method signature="AuthorsEdgeTest.updateAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" name="updateAuthor_invalidDataTypes" class="tests.AuthorsEdgeTest"/>
+        <method signature="BooksEdgeTest.createBooks_emptyFields()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="createBooks_emptyFields" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.createBooks_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="createBooks_emptyPayload" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.createBooks_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="createBooks_invalidDataTypes" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.deleteBook_invalidPathParameter()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="deleteBook_invalidPathParameter" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.getBookById_nonExistentID()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="getBookById_nonExistentID" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.updateBook_emptyFields()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="updateBook_emptyFields" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.updateBook_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="updateBook_emptyPayload" class="tests.BooksEdgeTest"/>
+        <method signature="BooksEdgeTest.updateBook_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" name="updateBook_invalidDataTypes" class="tests.BooksEdgeTest"/>
       </group> <!-- edge -->
-      <group name="happy">
-        <method signature="AuthorsTest.createAuthor_shouldReturnValidResponse()[pri:0, instance:tests.AuthorsTest@18df8434]" name="createAuthor_shouldReturnValidResponse" class="tests.AuthorsTest"/>
-        <method signature="AuthorsTest.deleteAuthor_shouldReturnSuccess()[pri:0, instance:tests.AuthorsTest@18df8434]" name="deleteAuthor_shouldReturnSuccess" class="tests.AuthorsTest"/>
-        <method signature="AuthorsTest.getAuthorsById_shouldReturnValidAuthor()[pri:0, instance:tests.AuthorsTest@18df8434]" name="getAuthorsById_shouldReturnValidAuthor" class="tests.AuthorsTest"/>
-        <method signature="AuthorsTest.getBooks_shouldReturnNonEmptyList()[pri:0, instance:tests.AuthorsTest@18df8434]" name="getBooks_shouldReturnNonEmptyList" class="tests.AuthorsTest"/>
-        <method signature="AuthorsTest.updateAuthor_shouldReturnUpdatedData()[pri:0, instance:tests.AuthorsTest@18df8434]" name="updateAuthor_shouldReturnUpdatedData" class="tests.AuthorsTest"/>
-        <method signature="BooksTest.createBooks_shouldReturnValidResponse()[pri:0, instance:tests.BooksTest@6253c26]" name="createBooks_shouldReturnValidResponse" class="tests.BooksTest"/>
-        <method signature="BooksTest.deleteBook_shouldReturnSuccess()[pri:0, instance:tests.BooksTest@6253c26]" name="deleteBook_shouldReturnSuccess" class="tests.BooksTest"/>
-        <method signature="BooksTest.getBookById_shouldReturnValidBook()[pri:0, instance:tests.BooksTest@6253c26]" name="getBookById_shouldReturnValidBook" class="tests.BooksTest"/>
-        <method signature="BooksTest.getBooks_shouldReturnNonEmptyList()[pri:0, instance:tests.BooksTest@6253c26]" name="getBooks_shouldReturnNonEmptyList" class="tests.BooksTest"/>
-        <method signature="BooksTest.updateBook_shouldReturnUpdatedData()[pri:0, instance:tests.BooksTest@6253c26]" name="updateBook_shouldReturnUpdatedData" class="tests.BooksTest"/>
-      </group> <!-- happy -->
     </groups>
-    <test started-at="2026-04-06T10:59:44 UTC" name="Bookstore Tests" finished-at="2026-04-06T10:59:56 UTC" duration-ms="12423">
+    <test started-at="2026-04-06T13:45:08 CEST" name="Bookstore Tests" finished-at="2026-04-06T13:45:13 CEST" duration-ms="5038">
       <class name="tests.BooksEdgeTest">
-        <test-method signature="createBooks_emptyFields()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:50 UTC" name="createBooks_emptyFields" finished-at="2026-04-06T10:59:50 UTC" duration-ms="232" status="PASS">
+        <test-method signature="createBooks_emptyFields()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:08 CEST" name="createBooks_emptyFields" finished-at="2026-04-06T13:45:09 CEST" duration-ms="1555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooks_emptyFields -->
-        <test-method signature="createBooks_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:50 UTC" name="createBooks_emptyPayload" finished-at="2026-04-06T10:59:50 UTC" duration-ms="219" status="PASS">
+        <test-method signature="createBooks_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:09 CEST" name="createBooks_emptyPayload" finished-at="2026-04-06T13:45:10 CEST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooks_emptyPayload -->
-        <test-method signature="createBooks_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:50 UTC" name="createBooks_invalidDataTypes" finished-at="2026-04-06T10:59:51 UTC" duration-ms="232" status="PASS">
+        <test-method signature="createBooks_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:10 CEST" name="createBooks_invalidDataTypes" finished-at="2026-04-06T13:45:10 CEST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooks_invalidDataTypes -->
-        <test-method signature="deleteBook_invalidPathParameter()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:51 UTC" name="deleteBook_invalidPathParameter" finished-at="2026-04-06T10:59:51 UTC" duration-ms="227" status="PASS">
+        <test-method signature="deleteBook_invalidPathParameter()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:10 CEST" name="deleteBook_invalidPathParameter" finished-at="2026-04-06T13:45:10 CEST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBook_invalidPathParameter -->
-        <test-method signature="getBookById_nonExistentID()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:51 UTC" name="getBookById_nonExistentID" finished-at="2026-04-06T10:59:51 UTC" duration-ms="220" status="PASS">
+        <test-method signature="getBookById_nonExistentID()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:10 CEST" name="getBookById_nonExistentID" finished-at="2026-04-06T13:45:10 CEST" duration-ms="197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookById_nonExistentID -->
-        <test-method signature="updateBook_emptyFields()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:51 UTC" name="updateBook_emptyFields" finished-at="2026-04-06T10:59:51 UTC" duration-ms="223" status="PASS">
+        <test-method signature="updateBook_emptyFields()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:10 CEST" name="updateBook_emptyFields" finished-at="2026-04-06T13:45:10 CEST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBook_emptyFields -->
-        <test-method signature="updateBook_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:51 UTC" name="updateBook_emptyPayload" finished-at="2026-04-06T10:59:52 UTC" duration-ms="215" status="PASS">
+        <test-method signature="updateBook_emptyPayload()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:10 CEST" name="updateBook_emptyPayload" finished-at="2026-04-06T13:45:11 CEST" duration-ms="225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBook_emptyPayload -->
-        <test-method signature="updateBook_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@5677323c]" started-at="2026-04-06T10:59:52 UTC" name="updateBook_invalidDataTypes" finished-at="2026-04-06T10:59:52 UTC" duration-ms="214" status="PASS">
+        <test-method signature="updateBook_invalidDataTypes()[pri:0, instance:tests.BooksEdgeTest@6e9175d8]" started-at="2026-04-06T13:45:11 CEST" name="updateBook_invalidDataTypes" finished-at="2026-04-06T13:45:11 CEST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBook_invalidDataTypes -->
       </class> <!-- tests.BooksEdgeTest -->
-      <class name="tests.BooksTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:44 UTC" name="setup" finished-at="2026-04-06T10:59:44 UTC" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createBooks_shouldReturnValidResponse()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:44 UTC" name="createBooks_shouldReturnValidResponse" finished-at="2026-04-06T10:59:48 UTC" duration-ms="4112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createBooks_shouldReturnValidResponse -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:48 UTC" name="setup" finished-at="2026-04-06T10:59:48 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="deleteBook_shouldReturnSuccess()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:48 UTC" name="deleteBook_shouldReturnSuccess" finished-at="2026-04-06T10:59:48 UTC" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteBook_shouldReturnSuccess -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:48 UTC" name="setup" finished-at="2026-04-06T10:59:48 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getBookById_shouldReturnValidBook()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:48 UTC" name="getBookById_shouldReturnValidBook" finished-at="2026-04-06T10:59:49 UTC" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBookById_shouldReturnValidBook -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:49 UTC" name="setup" finished-at="2026-04-06T10:59:49 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getBooks_shouldReturnNonEmptyList()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:49 UTC" name="getBooks_shouldReturnNonEmptyList" finished-at="2026-04-06T10:59:50 UTC" duration-ms="983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBooks_shouldReturnNonEmptyList -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:50 UTC" name="setup" finished-at="2026-04-06T10:59:50 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="updateBook_shouldReturnUpdatedData()[pri:0, instance:tests.BooksTest@6253c26]" started-at="2026-04-06T10:59:50 UTC" name="updateBook_shouldReturnUpdatedData" finished-at="2026-04-06T10:59:50 UTC" duration-ms="239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateBook_shouldReturnUpdatedData -->
-      </class> <!-- tests.BooksTest -->
-      <class name="tests.AuthorsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="setup" finished-at="2026-04-06T10:59:52 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createAuthor_shouldReturnValidResponse()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="createAuthor_shouldReturnValidResponse" finished-at="2026-04-06T10:59:52 UTC" duration-ms="248" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAuthor_shouldReturnValidResponse -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="setup" finished-at="2026-04-06T10:59:52 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="deleteAuthor_shouldReturnSuccess()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="deleteAuthor_shouldReturnSuccess" finished-at="2026-04-06T10:59:52 UTC" duration-ms="204" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAuthor_shouldReturnSuccess -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="setup" finished-at="2026-04-06T10:59:52 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getAuthorsById_shouldReturnValidAuthor()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="getAuthorsById_shouldReturnValidAuthor" finished-at="2026-04-06T10:59:52 UTC" duration-ms="221" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAuthorsById_shouldReturnValidAuthor -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="setup" finished-at="2026-04-06T10:59:52 UTC" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="getBooks_shouldReturnNonEmptyList()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:52 UTC" name="getBooks_shouldReturnNonEmptyList" finished-at="2026-04-06T10:59:53 UTC" duration-ms="965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBooks_shouldReturnNonEmptyList -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:53 UTC" name="setup" finished-at="2026-04-06T10:59:53 UTC" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="updateAuthor_shouldReturnUpdatedData()[pri:0, instance:tests.AuthorsTest@18df8434]" started-at="2026-04-06T10:59:53 UTC" name="updateAuthor_shouldReturnUpdatedData" finished-at="2026-04-06T10:59:54 UTC" duration-ms="205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateAuthor_shouldReturnUpdatedData -->
-      </class> <!-- tests.AuthorsTest -->
       <class name="tests.AuthorsEdgeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="setup" finished-at="2026-04-06T10:59:54 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="setup" finished-at="2026-04-06T13:45:11 CEST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="createAuthor_invalidDataTypes" finished-at="2026-04-06T10:59:54 UTC" duration-ms="220" status="PASS">
+        <test-method signature="createAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="createAuthor_invalidDataTypes" finished-at="2026-04-06T13:45:11 CEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAuthor_invalidDataTypes -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="setup" finished-at="2026-04-06T10:59:54 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="setup" finished-at="2026-04-06T13:45:11 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAuthors_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="createAuthors_emptyFields" finished-at="2026-04-06T10:59:54 UTC" duration-ms="226" status="PASS">
+        <test-method signature="createAuthors_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="createAuthors_emptyFields" finished-at="2026-04-06T13:45:11 CEST" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAuthors_emptyFields -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="setup" finished-at="2026-04-06T10:59:54 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="setup" finished-at="2026-04-06T13:45:11 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAuthors_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="createAuthors_emptyPayload" finished-at="2026-04-06T10:59:54 UTC" duration-ms="245" status="PASS">
+        <test-method signature="createAuthors_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:11 CEST" name="createAuthors_emptyPayload" finished-at="2026-04-06T13:45:12 CEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAuthors_emptyPayload -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="setup" finished-at="2026-04-06T10:59:54 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="setup" finished-at="2026-04-06T13:45:12 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deleteAuthor_invalidPathParameter()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:54 UTC" name="deleteAuthor_invalidPathParameter" finished-at="2026-04-06T10:59:55 UTC" duration-ms="319" status="PASS">
+        <test-method signature="deleteAuthor_invalidPathParameter()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="deleteAuthor_invalidPathParameter" finished-at="2026-04-06T13:45:12 CEST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAuthor_invalidPathParameter -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:55 UTC" name="setup" finished-at="2026-04-06T10:59:55 UTC" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="setup" finished-at="2026-04-06T13:45:12 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getAuthorById_nonExistentID()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:55 UTC" name="getAuthorById_nonExistentID" finished-at="2026-04-06T10:59:55 UTC" duration-ms="392" status="PASS">
+        <test-method signature="getAuthorById_nonExistentID()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="getAuthorById_nonExistentID" finished-at="2026-04-06T13:45:12 CEST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAuthorById_nonExistentID -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:55 UTC" name="setup" finished-at="2026-04-06T10:59:55 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="setup" finished-at="2026-04-06T13:45:12 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateAuthor_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:55 UTC" name="updateAuthor_emptyFields" finished-at="2026-04-06T10:59:55 UTC" duration-ms="375" status="PASS">
+        <test-method signature="updateAuthor_emptyFields()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="updateAuthor_emptyFields" finished-at="2026-04-06T13:45:12 CEST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAuthor_emptyFields -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:56 UTC" name="setup" finished-at="2026-04-06T10:59:56 UTC" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="setup" finished-at="2026-04-06T13:45:12 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateAuthor_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:56 UTC" name="updateAuthor_emptyPayload" finished-at="2026-04-06T10:59:56 UTC" duration-ms="358" status="PASS">
+        <test-method signature="updateAuthor_emptyPayload()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:12 CEST" name="updateAuthor_emptyPayload" finished-at="2026-04-06T13:45:13 CEST" duration-ms="191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAuthor_emptyPayload -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:56 UTC" name="setup" finished-at="2026-04-06T10:59:56 UTC" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:13 CEST" name="setup" finished-at="2026-04-06T13:45:13 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@65c7a252]" started-at="2026-04-06T10:59:56 UTC" name="updateAuthor_invalidDataTypes" finished-at="2026-04-06T10:59:56 UTC" duration-ms="397" status="PASS">
+        <test-method signature="updateAuthor_invalidDataTypes()[pri:0, instance:tests.AuthorsEdgeTest@15bb5034]" started-at="2026-04-06T13:45:13 CEST" name="updateAuthor_invalidDataTypes" finished-at="2026-04-06T13:45:13 CEST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateAuthor_invalidDataTypes -->

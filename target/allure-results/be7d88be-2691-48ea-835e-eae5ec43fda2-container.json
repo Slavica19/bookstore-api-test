@@ -1,1 +1,0 @@
-{"uuid":"be7d88be-2691-48ea-835e-eae5ec43fda2","name":"tests.AuthorsTest.setup","children":["a99d32bd-0540-46f2-af14-c836fa505633"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1775473192277,"stop":1775473192277}],"afters":[],"start":1775473192277,"stop":1775473192277}
