@@ -54,8 +54,8 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 
 ### **How to Run Tests**
 1. Clone the repository
-   git clone <your-repo-url>
-   cd <project-folder>
+   git clone https://github.com/Slavica19/bookstore-api-test
+   cd bookstore-api-test
 2. Run tests using Maven
    mvn clean test
 3. Run specific groups
@@ -67,6 +67,7 @@ The test suite validates both happy paths and edge cases for CRUD operations.
 Generate Allure Report:
 allure generate target/allure-results
 allure serve target/allure-results
+
 Features used:
 •	@Epic
 •	@Feature
@@ -87,12 +88,15 @@ docker build --no-cache -t books-authors-tests .
 #### **Run the Tests in a Container:**
 
 docker run --rm -v $(pwd)/target:/app/target books-authors-tests
+
 --rm -> removes the container after finishing.
+
 -v $(pwd)/target:/app/target -> keeps Allure reports on the host machine.
 
 #### **Run the Tests with a Custom Environment Variable:**
 
 docker run --rm -v ${PWD}:/app -e BASE_URL=https://fakerestapi.azurewebsites.net/ api-tests
+
 -e BASE_URL -> sets the environment variable inside the container.
 
 #### **View Allure Report:**
@@ -152,6 +156,7 @@ REST Assured =	API testing
 TestNG	= Test framework
 Allure = 	Reporting
 Maven = 	Build tool
+Docker=  Containerized test execution
 
 **Notes:**
 
